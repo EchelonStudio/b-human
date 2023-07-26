@@ -84,7 +84,7 @@ const App: Component = () => {
 
         <div class="px-3 pb-3">
           <div class="grid grid-cols-2 gap-3">
-            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center">
+            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center cursor-pointer">
               <svg
                 width="32"
                 height="32"
@@ -97,9 +97,9 @@ const App: Component = () => {
                   fill="black"
                 />
               </svg>
-              <span>Email</span>
+              <span class="text-xs">Email</span>
             </div>
-            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center">
+            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center cursor-pointer">
               <svg
                 width="32"
                 height="32"
@@ -116,9 +116,9 @@ const App: Component = () => {
                   fill="black"
                 />
               </svg>
-              <span>Phone</span>
+              <span class="text-xs">Phone</span>
             </div>
-            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center">
+            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center cursor-pointer">
               <svg
                 width="32"
                 height="32"
@@ -133,9 +133,9 @@ const App: Component = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <span>API</span>
+              <span class="text-xs">API</span>
             </div>
-            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center">
+            <div class="py-3 px-1 bg-[#F2F2F2] rounded-lg flex flex-col space-y-1 items-center justify-center cursor-pointer">
               <svg
                 width="22"
                 height="24"
@@ -163,7 +163,7 @@ const App: Component = () => {
                   </clipPath>
                 </defs>
               </svg>
-              <span>Mailchimp</span>
+              <span class="text-xs">Mailchimp</span>
             </div>
           </div>
         </div>
